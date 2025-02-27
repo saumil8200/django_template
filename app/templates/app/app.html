@@ -1,0 +1,8 @@
+{% extends 'index.html' %} 
+
+{% block content %}
+
+<h1>Hello{% if pk %} {{ pk.capitalize }}{% endif %}!</h1>
+<p>Simple django starter template :)</p>
+
+{% endblock content %}
